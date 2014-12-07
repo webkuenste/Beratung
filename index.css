@@ -1,0 +1,91 @@
+body {
+	margin-top: 0;
+	background-color: white;
+}
+
+header {
+	background: url('images/beraterin3.jpg') no-repeat center center;
+	background-size: cover;
+	/*width:100vw;*/
+	width:100%;
+	min-height: 100vh;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {	
+	color: #FFF;
+	text-align: center;
+	font-size: 72px;
+	letter-spacing: 0.1em;
+	flex-grow: 1;
+}
+
+.logo_span {
+	border: solid 10px white;
+	padding: 10px;
+}
+
+article {
+	display: flex;
+	align-self: flex-end; 
+}
+
+nav ul {
+	text-align: center;
+    list-style-type: none;
+    margin: auto;
+} 
+
+nav ul li {
+	list-style: none; 
+	font-size: 36px;
+	display: inline;
+}
+
+nav ul li a{
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color:lightblue;
+}
+
+a:link,a:visited
+{
+    display:inline-block; 
+    text-align:center;
+}
+
+.nav-buttons{
+	/*background: rgba(204,204,204,0.9);*/
+	background: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+.home {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.home p, .leistungen p, .leistungen ul {
+	width: 50%;
+	line-height: 200%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: darkgrey;
+	font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-weight: 100;
+}
+

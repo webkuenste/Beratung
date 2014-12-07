@@ -1,1 +1,73 @@
-Hello World!
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Beratung
+		</title>
+
+		<!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+
+		<link href="index.css" type="text/css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>
+		/* smooth scrolling */
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		</script>
+	</head>
+	
+	<body>
+
+		<header>
+			<h1></h1>
+			
+			<h1><span class="logo_span">Steuerberaterin</span></h1>
+		
+			<nav>
+				<ul>
+				  <li><span class="nav-buttons"><a href="#home">Home</a></span></li>
+				  <li><span class="nav-buttons"><a href="#leistungen">Leistungen</a></span></li>
+				  <li><span class="nav-buttons"><a href="#">Kontakt</a></span></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="home" id="home">
+			<p>Unser Steuerb&uuml;ro ist Ihr Spezialist f&uuml;r Fragen zum Thema Steuer, Steuererkl&auml;rung und Steuerrecht. Ganz gleich, ob Sie Unternehmer oder Privatperson sind: Wir k&ouml;nnen Ihnen garantiert bei Ihren Anliegen helfen und Sie kompetent beraten.
+			</p>
+
+			<p>Wir beraten Sie ausf&uuml;hrlich zu Ihren Anliegen rund um die Themen Steuern, Steuerrecht und Steuererkl&auml;rung und gehen fachkundig auf Ihre Fragen ein.</p>
+		</div>
+
+		<div class="leistungen" id="leistungen">
+			<p>Eine &Uuml;bersicht der angebotenen Leistungen:</p>
+			<ul>
+				<li>Einkommenssteuererkl&auml;rung</li>
+				<li>Umsatzsteuererkl&auml;rung</li>
+				<li>Gewerbesteuererkl&auml;rung</li>
+				<li>K&ouml;rperschaftssteuererkl&auml;rung</li>
+				<li>Erbschafts- und Schenkungssteuererkl&auml;rung</li>
+			</ul>
+
+			<ul>
+				<li>Existenzgr&uuml;ndungsberatung</li>
+				<li>Unternehmensberatung</li>
+			</ul>
+		</div>
+
+	</body>
+</html>
