@@ -35,8 +35,8 @@ h1 {
 }
 
 .logo_span {
-	border: solid 10px white;
-	padding: 10px;
+	border: solid 8px white;
+	padding: 10px 22px;
 }
 
 article {
@@ -102,6 +102,10 @@ a:link,a:visited
 	font-size: 24px;
 }
 
+p + p {
+	margin-top: 3em;
+}
+
 .leistungen {
 	padding: 100px 0px;
 	background-color: gray;
@@ -116,9 +120,10 @@ a:link,a:visited
 }
 
 .kontakt {
-	padding: 60px 0px 100px 0px;
+	text-align: center;
+	padding-bottom:140px;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-size: 28px;
+	font-size: 24px;
 	line-height: 200%;
 }
 
@@ -126,18 +131,16 @@ a:link,a:visited
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
-	padding-bottom: 40px;
-
+	padding: 100px 0px;
 }
 
 .kontakt form input {
+	border: none;
+	border: solid 1px gray;
+	border-radius: 20px 0px 0px 20px;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-size: 28px;
+	font-size: 24px;
 	line-height: 200%;
-	margin-right: 5px;
-}
-
-.kontakt input {
 	padding: 6px 0px 6px 20px;
 }
 
@@ -148,15 +151,73 @@ a:link,a:visited
 .kontakt button {
 	display: inline;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-size: 26px;
+	font-size: 24px;
+	line-height: 200%;
 	color: white;
-	padding: 12px;
-	margin: 10px 0px 0px 0px;
+	margin-left: -58px;
+	padding: 6px 10px 6px 10px;
 	background-color: grey;
-	border-radius: 4px;
+	border: none;
+	border-radius: 0px 20px 20px 0px;
 	cursor: pointer;
 }
 
 .kontak .map {
-	width: 100%;
+	width: 80%;
+}
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:80%;
+   height:450px;
+   top:450px;
+   margin-top:-450px;
+}
+
+.mapcontainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	overflow: hidden;
+	height: 450px;
+	border: 1px solid grey;
+	border-radius: 25px;
+}
+
+@media (max-width: 960px) {
+
+    nav ul li {
+		font-size: 24px;
+	}
+
+	.kontakt, .kontakt form input, .kontakt button {
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 720px) {
+	
+
+	h1 {	
+		font-size: 52px;
+	}
+
+	.home p, .leistungen p, .leistungen ul {
+		width: 60%;
+	}
+
+    nav ul li {
+		font-size: 24px;
+	}
+
+	.kontakt, .kontakt form input, .kontakt button {
+		font-size: 22px;
+	}
+
+	.newsletter input {
+		width: 60%;
+	}
+
 }
