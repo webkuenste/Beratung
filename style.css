@@ -1,12 +1,12 @@
 body {
 	margin: 0;
 	background-color: white;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 header {
 	background: url('images/beraterin3.jpg') no-repeat center center;
 	background-size: cover;
-	/*width:100vw;*/
 	width:100%;
 	min-height: 100vh;
 	display: inline-flex;
@@ -21,10 +21,7 @@ header {
 	justify-content: space-between;
 }
 
-.logo {
-	margin-right: auto;
-	margin-left: auto;
-}
+
 
 h1 {	
 	color: #FFF;
@@ -37,16 +34,9 @@ h1 {
 .logo_span {
 	border: solid 8px white;
 	padding: 10px 22px;
+	font-family: "Times New Roman", Georgia, serif;
 }
 
-article {
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
-	align-self: flex-end; 
-}
 
 nav ul {
 	text-align: center;
@@ -77,8 +67,6 @@ a:link,a:visited
 }
 
 .nav-buttons{
-	/*background: rgba(204,204,204,0.9);*/
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	background: white;
 	border-radius: 20px;
 	padding: 20px;
@@ -98,7 +86,6 @@ a:link,a:visited
 	margin-left: auto;
 	text-align: left;
 	color: gray;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 24px;
 }
 
@@ -116,13 +103,14 @@ p + p {
 }
 
 .leistungen ul {
-	text-align: left;
+	list-style-image: url('images/bullet.png');
+	list-style-position: inside;
+	padding-left: 0px;
 }
 
 .kontakt {
 	text-align: center;
 	padding-bottom:140px;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	line-height: 200%;
 }
@@ -199,7 +187,6 @@ p + p {
 
 @media (max-width: 720px) {
 	
-
 	h1 {	
 		font-size: 52px;
 	}
@@ -210,6 +197,10 @@ p + p {
 
     nav ul li {
 		font-size: 24px;
+	}
+
+	.leistungen ul {
+		list-style-position: outside;
 	}
 
 	.kontakt, .kontakt form input, .kontakt button {
