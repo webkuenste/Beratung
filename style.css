@@ -36,6 +36,28 @@ h1 {
 	font-family: "Times New Roman", Georgia, serif;
 }
 
+::selection {
+    background: gray;
+    color: white;
+}
+
+::-moz-selection {
+    background: gray;
+    color: white;
+}
+
+.leistungen ::selection,
+footer ::selection {
+    background: white;
+    color: gray;
+}
+
+.leistungen ::-moz-selection,
+footer ::-moz-selection {
+    background: white;
+    color: gray;
+}
+
 nav ul {
 	text-align: center;
     list-style-type: none;
@@ -45,7 +67,7 @@ nav ul {
 
 nav ul li {
 	list-style: none; 
-	font-size: 36px;
+	font-size: 32px;
 	display: inline;
 }
 
@@ -65,9 +87,9 @@ a:link,a:visited {
 
 .nav-buttons{
 	background: white;
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	padding: 20px;
-	margin-left: 20px;
+	margin: 0px 10px;
 }
 
 .home {
@@ -183,7 +205,6 @@ a {
 	text-decoration: none;
 }
 
-
 @media (max-width: 960px) {
 
     nav ul li, footer {
@@ -210,6 +231,10 @@ a {
 		font-size: 24px;
 	}
 
+	.home p, .leistungen p, .leistungen ul {
+		width: 70%;
+	}
+
 	.leistungen ul {
 		list-style-position: outside;
 	}
@@ -224,7 +249,7 @@ a {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 	
 	h1 {	
 		font-size: 24px;
@@ -236,6 +261,28 @@ a {
 
     nav ul li, .home p, .leistungen p, .leistungen ul, .kontakt, .kontakt form input, .kontakt button, footer {
 		font-size: 14px;
+	}
+
+	.nav-buttons{
+		border-radius: 10px 10px 0px 0px;
+		padding: 12px;
+		margin: 0px 2px;
+	}
+
+	.home p, .leistungen p, .leistungen ul {
+		width: 70%;
+	}
+
+	.leistungen ul {
+		list-style-image: url('images/bullet_small.png');
+	}
+
+	.kontakt .newsletter {
+		width: 70%;
+	}
+
+	.kontakt form input {
+		padding: 6px 0px 6px 10px;
 	}
 
 }
