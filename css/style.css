@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background: url('images/beraterin3.jpg') no-repeat center center;
+	background: url('../images/beratung.jpg') no-repeat center center;
 	background-size: cover;
 	width:100%;
 	min-height: 100vh;
@@ -122,7 +122,7 @@ p + p {
 }
 
 .leistungen ul {
-	list-style-image: url('images/bullet.png');
+	list-style-image: url('../images/bullet.png');
 	list-style-position: inside;
 	padding-left: 0px;
 }
@@ -149,6 +149,11 @@ p + p {
 	font-size: 24px;
 	line-height: 200%;
 	padding: 6px 0px 6px 20px;
+}
+
+input:hover,
+input:focus {
+	outline: 0;
 }
 
 .newsletter p {
@@ -274,7 +279,7 @@ a {
 	}
 
 	.leistungen ul {
-		list-style-image: url('images/bullet_small.png');
+		list-style-image: url('../images/bullet_small.png');
 	}
 
 	.kontakt .newsletter {
