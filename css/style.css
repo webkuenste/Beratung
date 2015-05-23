@@ -1,44 +1,44 @@
 body {
-	margin: 0;
-	background-color: white;
-	font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-	background: url('../images/beratung.jpg') no-repeat center center;
-	background-size: cover;
-	width:100%;
-	min-height: 100vh;
-	display: inline-flex;
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
-  	-webkit-flex-direction: column;
-	flex-direction: column;
-	-webkit-justify-content: space-between;
-	justify-content: space-between;
+  background: url('../images/beratung.jpg') no-repeat center center;
+  background-size: cover;
+  width:100%;
+  min-height: 100vh;
+  display: inline-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
 }
 
-h1 {	
-	color: #FFF;
-	text-align: center;
-	font-size: 72px;
-	letter-spacing: 0.1em;
-	-webkit-flex-grow: 1;
-	flex-grow: 1;
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 72px;
+  letter-spacing: 0.1em;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
 }
 
 .logo_span {
-	border: solid 8px white;
-	padding: 10px 22px;
-	font-family: "Times New Roman", Georgia, serif;
+  border: solid 8px white;
+  padding: 10px 22px;
+  font-family: "Times New Roman", Georgia, serif;
 }
 
 ::selection {
-    background: gray;
-    color: white;
+  background: gray;
+  color: white;
 }
 
 ::-moz-selection {
@@ -48,246 +48,269 @@ h1 {
 
 .leistungen ::selection,
 footer ::selection {
-    background: white;
-    color: gray;
+  background: white;
+  color: gray;
 }
 
 .leistungen ::-moz-selection,
 footer ::-moz-selection {
-    background: white;
-    color: gray;
+  background: white;
+  color: gray;
 }
 
 nav ul {
-	text-align: center;
-    list-style-type: none;
-    padding-left: 0px;
-    margin: auto;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: auto;
 } 
 
 nav ul li {
-	list-style: none; 
-	font-size: 32px;
-	display: inline;
+  list-style: none; 
+  font-size: 32px;
+  display: inline;
 }
 
 nav ul li a {
-	color: grey;
-	text-decoration: none;
+  color: grey;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-a:link,a:visited {
-    display:inline-block; 
-    text-align:center;
+a:link,
+a:visited {
+  display:inline-block; 
+  text-align:center;
 }
 
-.nav-buttons{
-	background: white;
-	border-radius: 20px 20px 0px 0px;
-	padding: 20px;
-	margin: 0px 10px;
+.nav-buttons {
+  background: white;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  margin: 0px 10px;
 }
 
 .home {
-	text-align: center;
-	margin-top: 40px;
-	padding: 30px 0px 100px 0px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px 0px 100px 0px;
 }
 
-.home p, .leistungen p, .leistungen ul {
-	width: 50%;
-	line-height: 260%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: left;
-	color: gray;
-	font-size: 24px;
+.home p, 
+.leistungen p, 
+.leistungen ul {
+  width: 50%;
+  line-height: 260%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  color: gray;
+  font-size: 24px;
 }
 
 p + p {
-	margin-top: 3em;
+  margin-top: 3em;
 }
 
 .leistungen {
-	padding: 100px 0px;
-	background-color: gray;
+  padding: 100px 0px;
+  background-color: gray;
 }
 
-.leistungen p, ul li, footer{
-	color: WhiteSmoke;
+.leistungen p,
+ul li,
+footer {
+  color: WhiteSmoke;
 }
 
 .leistungen ul {
-	list-style-image: url('../images/bullet.png');
-	list-style-position: inside;
-	padding-left: 0px;
+  list-style-image: url('../images/bullet.png');
+  list-style-position: inside;
+  padding-left: 0px;
 }
 
 .kontakt {
-	text-align: center;
-	padding-bottom:140px;
-	font-size: 24px;
-	line-height: 200%;
+  text-align: center;
+  padding-bottom:140px;
+  font-size: 24px;
+  line-height: 200%;
 }
 
 .kontakt .newsletter {
-	width: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 100px 0px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 100px 0px;
 }
 
 .kontakt form input {
-	border: none;
-	border: solid 1px gray;
-	border-radius: 20px 0px 0px 20px;
-	font-family: "Open Sans", sans-serif;
-	font-size: 24px;
-	line-height: 200%;
-	padding: 6px 0px 6px 20px;
+  border: none;
+  border: solid 1px gray;
+  border-radius: 20px 0px 0px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 200%;
+  padding: 6px 0px 6px 20px;
 }
 
 input:hover,
 input:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .newsletter p {
-	color: gray;
+  color: gray;
 }
 
 .kontakt button {
-	display: inline;
-	font-family: "Open Sans", sans-serif;
-	font-size: 24px;
-	line-height: 200%;
-	color: white;
-	margin-left: -58px;
-	padding: 7px 10px 7px 10px;
-	background-color: grey;
-	border: none;
-	border-radius: 0px 20px 20px 0px;
-	cursor: pointer;
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 200%;
+  color: white;
+  margin-left: -58px;
+  padding: 7px 10px 7px 10px;
+  background-color: grey;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
 }
 
 .kontak .map {
-	width: 80%;
+  width: 80%;
 }
 
 .overlay {
-   background:transparent; 
-   position:relative; 
-   width:80%;
-   height:450px;
-   top:450px;
-   margin-top:-450px;
+  background:transparent; 
+  position:relative; 
+  width:80%;
+  height:450px;
+  top:450px;
+  margin-top:-450px;
 }
 
 .mapcontainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	overflow: hidden;
-	height: 450px;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  overflow: hidden;
+  height: 450px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+     -moz-border-radius: 10px 10px 10px 10px;
+          border-radius: 10px 10px 10px 10px;
+  border: 1px solid grey;
 }
 
 footer {
-	padding: 20px 0px;
-	text-align: center;
-	background-color: gray;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: gray;
 }
 
 a { 
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
 
-    nav ul li, footer {
-		font-size: 24px;
-	}
+  nav ul li, footer {
+    font-size: 24px;
+  }
 
-	.kontakt, .kontakt form input, .kontakt button {
-		font-size: 22px;
-	}
+  .kontakt,
+  .kontakt form input,
+  .kontakt button {
+    font-size: 22px;
+  }
 
 }
 
 @media (max-width: 720px) {
-	
-	h1 {	
-		font-size: 52px;
-	}
 
-	.home p, .leistungen p, .leistungen ul {
-		width: 60%;
-	}
+  h1 {
+    font-size: 52px;
+  }
 
-    nav ul li {
-		font-size: 24px;
-	}
+  .home p,
+  .leistungen p,
+  .leistungen ul {
+    width: 60%;
+  }
 
-	.home p, .leistungen p, .leistungen ul {
-		width: 70%;
-	}
+  nav ul li {
+    font-size: 24px;
+  }
 
-	.leistungen ul {
-		list-style-position: outside;
-	}
+  .home p,
+  .leistungen p,
+  .leistungen ul {
+    width: 70%;
+  }
 
-	.kontakt, .kontakt form input, .kontakt button, footer {
-		font-size: 22px;
-	}
+  .leistungen ul {
+    list-style-position: outside;
+  }
 
-	.newsletter input {
-		width: 60%;
-	}
+  .kontakt,
+  .kontakt form input,
+  .kontakt button, footer {
+    font-size: 22px;
+  }
+
+  .newsletter input {
+    width: 60%;
+  }
 
 }
 
 @media (max-width: 520px) {
-	
-	h1 {	
-		font-size: 24px;
-	}
 
-	.logo_span {
-		border: solid 4px white;
-	}
+  h1 {
+    font-size: 24px;
+  }
 
-    nav ul li, .home p, .leistungen p, .leistungen ul, .kontakt, .kontakt form input, .kontakt button, footer {
-		font-size: 14px;
-	}
+  .logo_span {
+    border: solid 4px white;
+  }
 
-	.nav-buttons{
-		border-radius: 10px 10px 0px 0px;
-		padding: 12px;
-		margin: 0px 2px;
-	}
+  nav ul li,
+  .home p,
+  .leistungen p,
+  .leistungen ul,
+  .kontakt,
+  .kontakt form input,
+  .kontakt button,
+  footer {
+    font-size: 14px;
+  }
 
-	.home p, .leistungen p, .leistungen ul {
-		width: 70%;
-	}
+  .nav-buttons{
+    border-radius: 10px 10px 0px 0px;
+    padding: 12px;
+    margin: 0px 2px;
+  }
 
-	.leistungen ul {
-		list-style-image: url('../images/bullet_small.png');
-	}
+  .home p,
+  .leistungen p,
+  .leistungen ul {
+    width: 70%;
+  }
 
-	.kontakt .newsletter {
-		width: 70%;
-	}
+  .leistungen ul {
+    list-style-image: url('../images/bullet_small.png');
+  }
 
-	.kontakt form input {
-		padding: 6px 0px 6px 10px;
-	}
+  .kontakt .newsletter {
+    width: 70%;
+  }
+
+  .kontakt form input {
+    padding: 6px 0px 6px 10px;
+  }
+
 
 }
