@@ -156,6 +156,12 @@ footer {
   padding: 6px 0px 6px 20px;
 }
 
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
 input:hover,
 input:focus {
   outline: 0;
