@@ -7,7 +7,7 @@ body {
 header {
   background: url('../images/beratung.jpg') no-repeat center center;
   background-size: cover;
-  width:100%;
+  width: 100%;
   min-height: 100vh;
   display: inline-flex;
   display: -webkit-box;
@@ -72,7 +72,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: grey;
+  color: gray;
   text-decoration: none;
 }
 
@@ -109,6 +109,16 @@ a:visited {
   text-align: left;
   color: gray;
   font-size: 24px;
+}
+
+.home-box {
+    height: 0;
+    padding: 0;
+    padding-bottom: 40%;
+    background-image: url(../images/beratung2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 p + p {
@@ -171,6 +181,16 @@ input:focus {
   color: gray;
 }
 
+.kontakt-box {
+    height: 0;
+    padding: 0;
+    padding-bottom: 40%;
+    background-image: url(../images/beratung3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .kontakt button {
   display: inline;
   font-family: "Open Sans", sans-serif;
@@ -179,7 +199,7 @@ input:focus {
   color: white;
   margin-left: -58px;
   padding: 7px 10px 7px 10px;
-  background-color: grey;
+  background-color: gray;
   border: none;
   border-radius: 0px 20px 20px 0px;
   cursor: pointer;
@@ -190,12 +210,12 @@ input:focus {
 }
 
 .overlay {
-  background:transparent; 
-  position:relative; 
-  width:80%;
-  height:450px;
-  top:450px;
-  margin-top:-450px;
+  background: transparent; 
+  position: relative; 
+  width: 80%;
+  height: 450px;
+  top: 450px;
+  margin-top: -450px;
 }
 
 .mapcontainer {
@@ -207,7 +227,7 @@ input:focus {
   -webkit-border-radius: 10px 10px 10px 10px;
      -moz-border-radius: 10px 10px 10px 10px;
           border-radius: 10px 10px 10px 10px;
-  border: 1px solid grey;
+  border: 1px solid gray;
 }
 
 footer {
