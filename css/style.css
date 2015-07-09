@@ -74,11 +74,6 @@ nav ul li {
 nav ul li a {
   color: gray;
   text-decoration: none;
-}
-
-nav ul li a {
-  color: gray;
-  text-decoration: none;
   position: relative;
 }
 
@@ -141,13 +136,13 @@ a:visited {
 }
 
 .home-box {
-    height: 0;
-    padding: 0;
-    padding-bottom: 40%;
-    background-image: url(../images/beratung2.jpg);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+  height: 0;
+  padding: 0;
+  padding-bottom: 40%;
+  background-image: url(../images/beratung2.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 p + p {
@@ -186,7 +181,6 @@ footer {
 }
 
 .kontakt form input {
-  border: none;
   border: solid 1px gray;
   border-radius: 20px 0px 0px 20px;
   font-family: "Open Sans", sans-serif;
@@ -211,13 +205,13 @@ input:focus {
 }
 
 .kontakt-box {
-    height: 0;
-    padding: 0;
-    padding-bottom: 40%;
-    background-image: url(../images/beratung3.jpg);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+  height: 0;
+  padding: 0;
+  padding-bottom: 40%;
+  background-image: url(../images/beratung3.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .kontakt button {
